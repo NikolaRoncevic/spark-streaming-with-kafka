@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "Person",
+  "namespace": "avro",
+   "fields" : [
+     {"name": "name", "type": "string"},
+     {"name": "numberOfCharacters", "type": "long"}
+   ]
+}

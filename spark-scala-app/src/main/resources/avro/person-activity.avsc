@@ -1,0 +1,10 @@
+{
+    "type": "record",
+    "name": "PersonActivity",
+    "namespace": "avro",
+     "fields" : [
+       {"name": "uid", "type": "string"},
+       {"name": "activity", "type": "string"},
+       {"name": "timestamp", "type": "string"}
+     ]
+  }
